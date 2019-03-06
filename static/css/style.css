@@ -42,11 +42,17 @@ Contact: https://themeforest.net/user/regediter
 	position: relative;
 	z-index: 3;
 }
+#slider .main-text{
+	background: rgba(0,0,0,0.45);
+	border-radius: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
 .img-overlay{
 	background: rgba(222, 3, 127, 0.45);
-	/*background-image: url("../img/5.jpeg");
+	background-image: url("../img/main.jpeg");
 	background-repeat: no-repeat;
-  	background-size: 70%;*/
+	background-size: cover;
 	height: 100%;
 	left: 0;
 	position: absolute;
@@ -725,7 +731,7 @@ footer h2 {
 }
 
 .people-img{
-	width: 130px;
+	width: 400px;
     float: none;
     display: inline-block;
     margin-left: 15px;
@@ -733,7 +739,6 @@ footer h2 {
 }
 
 .people-img img{
-	border-radius: 3px;
     height: auto;
     width: 100%;
     margin-bottom: 1.5em;
