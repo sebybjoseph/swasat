@@ -247,6 +247,9 @@ a, .custom-color{
 	-o-transition: all 150ms ease-in-out;
 	transition: all 150ms ease-in-out;
 }
+.date-custom-color{
+	color: #de037f;
+}
 .link{
 	display: block;
 }
