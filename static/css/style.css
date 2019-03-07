@@ -860,6 +860,10 @@ footer h2 {
 
 /* 13 Event Section
 ==================================================== */
+.invite_logo .logo{
+	width: 30%;
+}
+
 .pl-70{
 	padding-left: 70px;
 }
